@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(45deg,#e065d2, #4ee4e1, #8ee04b);
+    background: linear-gradient(-45deg, #e065d2, #000000, #e065d2);
     width: 100vw;
     height: 100vh;
     overflow: auto;
@@ -25,6 +26,7 @@ body {
 @keyframes whiten {
     0% {
         color: black;
+        color: rgb(255, 123, 0);
     }
     100% {
         color: white;
@@ -37,6 +39,7 @@ body {
     }
     100% {
         color: black;
+        color: rgb(255, 123, 0);
     }
 }
 
