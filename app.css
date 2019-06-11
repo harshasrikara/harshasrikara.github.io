@@ -5,6 +5,7 @@ body {
     height: 100vh;
     overflow: auto;
     box-sizing: content-box;
+    background-repeat: no-repeat;
 }
 
 .frontTag {
