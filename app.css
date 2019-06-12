@@ -2,7 +2,7 @@ body {
     background: linear-gradient(45deg,#e065d2, #4ee4e1, #8ee04b);
     background: linear-gradient(-45deg, #e065d2, #000000, #e065d2);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
     box-sizing: content-box;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
     margin-top: 15%;
     margin-left: 50%;
     margin-right: 50%;
-    margin-bottom: auto;
+    margin-bottom: 7%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
