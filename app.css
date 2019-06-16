@@ -1,16 +1,40 @@
+html {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+}
 body {
-    background: linear-gradient(45deg,#e065d2, #4ee4e1, #8ee04b);
-    background: linear-gradient(-45deg, #e065d2, #000000, #e065d2);
-    width: 100vw;
-    height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 140%;
+}
+#page1, #page3, #page5 {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
     overflow: auto;
-    box-sizing: content-box;
-    background-repeat: no-repeat;
+    background: linear-gradient(-45deg, #e065d2, #000000, #e065d2);
+}
+
+#page2, #page4, #page6 {
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background: linear-gradient(45deg, #e065d2, #000000, #e065d2);
 }
 
 .frontTag {
-    font-family: sans-serif;
-    font-size: 140%;
     display: block;
     color: white;
     animation-name: whiten;
@@ -50,6 +74,7 @@ body {
     margin-top: 15%;
     margin-bottom: auto;
     text-align: start;
+    padding: 0;
 }
 
 #education {
@@ -58,15 +83,16 @@ body {
     margin-top: 8%;
     margin-bottom: auto;
     text-align: end;
+    padding: 0;
 }
 
 .topElement {
-    padding-bottom: 0%;
-    margin-bottom: 0%;
+    margin:0;
+    padding: 0;
 }
 .bottomElement {
-    padding-top: 0%;
-    margin-top: 0%;
+    margin:0;
+    padding: 0;
 }
 
 .hide {
