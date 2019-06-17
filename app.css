@@ -96,9 +96,11 @@ body {
     margin-bottom: auto;
     text-align: start;
     padding: 0;
+    display: inline-block;
 }
 
 #aboutme {
+    
     width: 30%;
     margin-left: auto;
     margin-right: 10%;
@@ -114,7 +116,7 @@ body {
 }
 .hide {
     animation: invisible;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -122,7 +124,7 @@ body {
     0% {
         opacity: 0;
     }
-    50% {
+    30% {
         opacity: 0;
     }
     100% {
@@ -130,19 +132,27 @@ body {
     }
 }
 
-.arrow{
+#page1arrow {
     margin-top: 15%;
     margin-left: 50%;
     margin-right: 50%;
     margin-bottom: 7%;
+}
+#page2arrow {
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 4%;
+}
+
+.arrow{
     transform: translate(-50%,-50%);
 }
 .arrow span{
     display: block;
     width: 30px;
     height: 30px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
+    border-bottom: 5px solid rgb(36, 197, 189);;
+    border-right: 5px solid rgb(36, 197, 189);;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -157,7 +167,7 @@ body {
     0%{
         
         opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
+        transform: rotate(45deg) translate(-2vh,-2vh);
     }
     50%{
         
@@ -166,6 +176,52 @@ body {
     100%{
         
         opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
+        transform: rotate(45deg) translate(2vh,2vh);
+    }
+}
+
+.arrow2{
+    transform: translate(-50%,-50%);
+}
+.arrow2 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(36, 197, 189);
+    border-right: 5px solid rgb(36, 197, 189);
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate2 3s infinite;
+}
+.arrow2 span:nth-child(2){
+    animation-delay: -0.3s;
+}
+.arrow2 span:nth-child(3){
+    animation-delay: -0.6s;
+}
+.arrow2 span:nth-child(4){
+    animation-delay: -0.9s;
+}
+.arrow2 span:nth-child(5){
+    animation-delay: -1.2s;
+}
+@keyframes animate2 {
+    0%{
+        
+        opacity: 0;
+        transform: rotate(-45deg) translate(0vh, 0vh);
+    }
+    10% {
+        opacity: 0.5;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    
+    100%{
+        
+        opacity: 0;
+        transform: rotate(45deg) translate(44vh,-22vh);
     }
 }
