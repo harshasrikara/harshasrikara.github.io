@@ -70,6 +70,10 @@ body {
     }
 }
 
+#name {
+    font-size: 250%; 
+}
+
 #main {
     margin-left: 10%;
     margin-right: auto;
@@ -142,6 +146,13 @@ body {
     display: inline-block;
     margin-left: 4%;
     margin-bottom: 4%;
+}
+
+#page2arrow2 {
+    margin-top: 15%;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 7%;
 }
 
 .arrow{
