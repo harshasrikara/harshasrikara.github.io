@@ -140,6 +140,19 @@ a {
     padding-bottom: 0%;
     padding-left: 0%;
 }
+#connect{
+    margin-top: 8%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+
+    text-align: center;
+
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
 
 .divElement {
     margin:0;
