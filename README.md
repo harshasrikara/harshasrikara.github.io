@@ -2,7 +2,7 @@
 Portfolio Website
 
 Portfolio website designed from scratch in html and css
-No Javascript yet
+No Javascript yet. Arrow animations for site were created based on the outlined free design by 60 css arrows
 
 ### Raw Text
 
