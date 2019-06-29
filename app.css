@@ -154,6 +154,39 @@ a {
     padding-left: 0%;
 }
 
+#featured-projects{
+    text-align: center;
+    margin-top: 4%
+}
+
+.project{
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+
+    text-align: center;
+    width: 18%;
+
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+li {
+    padding: 4%;
+}
+
+.box {
+    text-align: center;
+}
+
+#project1{
+    display: inline-block;
+}
+
 .divElement {
     margin:0;
     padding: 0;
