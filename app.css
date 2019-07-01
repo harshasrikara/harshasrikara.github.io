@@ -189,7 +189,7 @@ li {
 }
 
 .divElement {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 .hide {
@@ -234,6 +234,71 @@ li {
     padding-right: 0%;
     padding-bottom: 0%;
     padding-left: 0%;
+}
+
+#page3arrow1 {
+    margin-top: 45%;
+}
+#page3arrow1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+#page3arrow1 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+#page3arrow1 span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+#page3arrow2 {
+    margin-top: 35%;
+}
+#page3arrow2 span:nth-child(1) {
+    animation-delay: -0.4s;
+}
+#page3arrow2 span:nth-child(2) {
+    animation-delay: -0.6s;
+}
+#page3arrow2 span:nth-child(3) {
+    animation-delay: -0.8s;
+}
+
+#page3arrow3 {
+    margin-top: 25%;
+}
+#page3arrow3 span:nth-child(1) {
+    animation-delay: -0.8s;
+}
+#page3arrow3 span:nth-child(2) {
+    animation-delay: -1.0s;
+}
+#page3arrow3 span:nth-child(3) {
+    animation-delay: -1.2s;
+}
+
+#page3arrow4 {
+    margin-top: 35%;
+}
+#page3arrow4 span:nth-child(1) {
+    animation-delay: -0.4s;
+}
+#page3arrow4 span:nth-child(2) {
+    animation-delay: -0.6s;
+}
+#page3arrow4 span:nth-child(3) {
+    animation-delay: -0.8s;
+}
+
+#page3arrow5 {
+    margin-top: 45%;
+}
+#page3arrow5 span:nth-child(1) {
+    animation-delay: 0s;
+}
+#page3arrow5 span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+#page3arrow5 span:nth-child(3) {
+    animation-delay: -0.4s;
 }
 
 
@@ -366,5 +431,46 @@ li {
         
         opacity: 0;
         transform: rotate(45deg) translate(-24vh,36vh);
+    }
+}
+
+.arrow3{
+    margin-top: 25%;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: auto;
+    transform: translate(-50%,-50%);
+}
+.arrow3 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(36, 197, 189);;
+    border-right: 5px solid rgb(36, 197, 189);;
+    transform: rotate(45deg);
+    margin-top:10%;
+    margin: -10px;
+    animation: animate3 2s infinite;
+}
+.arrow3 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow3 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate3 {
+    0%{
+        
+        opacity: 0;
+        transform: rotate(45deg) translate(-2vh,-2vh);
+    }
+    50%{
+        
+        opacity: 1;
+    }
+    100%{
+        
+        opacity: 0;
+        transform: rotate(45deg) translate(2vh,2vh);
     }
 }
