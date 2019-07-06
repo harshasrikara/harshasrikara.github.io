@@ -158,6 +158,9 @@ a {
     text-align: center;
     margin-top: 4%
 }
+#contactInfo {
+    
+}
 
 .project{
     display: inline-block;
@@ -253,39 +256,39 @@ li {
     margin-top: 35%;
 }
 #page3arrow2 span:nth-child(1) {
-    animation-delay: -0.4s;
+    animation-delay: -0.5s;
 }
 #page3arrow2 span:nth-child(2) {
-    animation-delay: -0.6s;
+    animation-delay: -0.7s;
 }
 #page3arrow2 span:nth-child(3) {
-    animation-delay: -0.8s;
+    animation-delay: -0.9s;
 }
 
 #page3arrow3 {
     margin-top: 25%;
 }
 #page3arrow3 span:nth-child(1) {
-    animation-delay: -0.8s;
-}
-#page3arrow3 span:nth-child(2) {
     animation-delay: -1.0s;
 }
-#page3arrow3 span:nth-child(3) {
+#page3arrow3 span:nth-child(2) {
     animation-delay: -1.2s;
+}
+#page3arrow3 span:nth-child(3) {
+    animation-delay: -1.4s;
 }
 
 #page3arrow4 {
     margin-top: 35%;
 }
 #page3arrow4 span:nth-child(1) {
-    animation-delay: -0.4s;
+    animation-delay: -0.5s;
 }
 #page3arrow4 span:nth-child(2) {
-    animation-delay: -0.6s;
+    animation-delay: -0.7s;
 }
 #page3arrow4 span:nth-child(3) {
-    animation-delay: -0.8s;
+    animation-delay: -0.9s;
 }
 
 #page3arrow5 {
