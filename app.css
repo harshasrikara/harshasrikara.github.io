@@ -162,6 +162,9 @@ a {
     margin-top: 25%;
     text-align: center;
 }
+#Organizations {
+    text-align: center;
+}
 
 .project{
     display: inline-block;
