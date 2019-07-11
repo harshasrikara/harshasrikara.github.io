@@ -12,9 +12,15 @@ Glad you could make it here. Very excited to show you around and present you wit
 ##### About me
 Currently, I am an undergraduate student with an interest in the confluence of Mathematics and Software Engineering. In pursuing a Mathematics/Computer Science double major with concentrations in Statistics and Information Assurance, I seek to better understand the conceptual underpinnings of important fields such as Data Science, Artifical Intelligence and Machine Learning. Towards this mission, I have developed several skills that are showcased in the projects below.
 
-# Contact
+##### Contact
 Email: contact@harshasrikara.com
 
 LinkedIn: https://www.linkedin.com/in/harshasrikara/
 
 Github: https://github.com/harshasrikara
+
+##### Organizations
+
+ACM: https://www.acmutd.co/team.html
+
+FilbeyLab: https://labs.utdallas.edu/filbeylab/team-members/
