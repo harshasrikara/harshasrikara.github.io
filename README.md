@@ -14,5 +14,7 @@ Currently, I am an undergraduate student with an interest in the confluence of M
 
 # Contact
 Email: contact@harshasrikara.com
+
 LinkedIn: https://www.linkedin.com/in/harshasrikara/
+
 Github: https://github.com/harshasrikara
