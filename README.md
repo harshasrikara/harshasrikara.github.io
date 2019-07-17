@@ -1,5 +1,5 @@
 # harshasrikara.github.io
-Portfolio Website
+Portfolio/Personal Website
 
 Portfolio website designed from scratch in html and css
 No Javascript yet. Arrow animations for site were created based on the outlined free design by 60 css arrows
