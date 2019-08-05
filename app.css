@@ -165,6 +165,14 @@ a {
 #Organizations {
     text-align: center;
 }
+#Honors {
+    margin-top: 8%;
+    margin-left: 10%;
+}
+#Leadership {
+    margin-top: 4%;
+    margin-left: 10%;
+}
 
 .project{
     display: inline-block;
@@ -375,6 +383,8 @@ li {
 .arrow2 span:nth-child(5){
     animation-delay: -1.2s;
 }
+
+
 @keyframes animate2 {
     0%{
         
@@ -395,6 +405,7 @@ li {
         transform: rotate(45deg) translate(44vh,-22vh);
     }
 }
+
 
 .arrow2-2{
     transform: translate(-50%,-50%);
