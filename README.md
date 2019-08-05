@@ -1,10 +1,17 @@
 # harshasrikara.github.io
-Portfolio Website
+Portfolio/Personal Website
 
 Portfolio website designed from scratch in html and css
 No Javascript yet. Arrow animations for site were created based on the outlined free design by 60 css arrows
 
 ### Raw Text
+Harsha Srikara
+
+Software Engineering Intern at Brainspace, A Cyxtera Business
+
+University of Texas at Dallas
+
+Mathematics and Computer Science
 
 ##### Welcome to my website
 Glad you could make it here. Very excited to show you around and present you with some amazing information. This entire website was "hand coded" from scratch in pure html and css. As my first web design project, I intended to experiment with many different styling and creative choices that culminated in this website. Scroll down below to see more and and thank you for visiting!
