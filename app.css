@@ -166,8 +166,10 @@ a {
     text-align: center;
 }
 #Honors {
-    margin-top: 8%;
+    display: inline-block;
+    vertical-align: text-bottom;
     margin-left: 10%;
+    margin-top: 8%;
 }
 #Leadership {
     margin-top: 4%;
@@ -235,6 +237,12 @@ li {
     display: inline-block;
     margin-left: 4%;
     margin-bottom: 4%;
+}
+
+#page5arrow {
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: 4%;
 }
 
 #page2arrow2 {
@@ -492,3 +500,77 @@ li {
         transform: rotate(45deg) translate(2vh,2vh);
     }
 }
+
+
+
+.arrow5{
+    vertical-align: bottom;
+    transform: translate(-50%,-50%);
+}
+.arrow5 span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid rgb(36, 197, 189);
+    border-right: 5px solid rgb(36, 197, 189);
+    transform: rotate(45deg);
+    margin-top: -10px;
+    animation: animate5 3s infinite;
+}
+.arrow5 span:nth-child(2){
+    animation-delay: -0.3s;
+}
+.arrow5 span:nth-child(3){
+    animation-delay: -0.6s;
+}
+.arrow5 span:nth-child(4){
+    animation-delay: -0.9s;
+}
+.arrow5 span:nth-child(5){
+    animation-delay: -1.2s;
+}
+.arrow5 span:nth-child(6){
+    animation-delay: -1.5s;
+}
+.arrow5 span:nth-child(7){
+    animation-delay: -1.8s;
+}
+.arrow5 span:nth-child(8){
+    animation-delay: -2.1s;
+}
+.arrow5 span:nth-child(9){
+    animation-delay: -2.4s;
+}
+.arrow5 span:nth-child(10){
+    animation-delay: -2.7s;
+}
+
+
+@keyframes animate5 {
+    0%{
+        
+        opacity: 0;
+        transform: rotate(-45deg) translate(0vh, 0vh);
+    }
+
+    10% {
+        opacity: 0.5;
+    }
+
+    50% {
+        transform: rotate(45) translate(-25vh, -75vh)
+    }
+
+    70%{
+        
+        opacity: 1;
+    }
+    
+    100%{
+        
+        opacity: 0;
+        transform: rotate(135deg) translate(-0vh,-75vh);
+    }
+}
+
+/* transform: rotate(135deg) translate(-25vh,-75vh); */
