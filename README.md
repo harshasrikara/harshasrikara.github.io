@@ -31,3 +31,5 @@ Github: https://github.com/harshasrikara
 ACM: https://www.acmutd.co/team.html
 
 FilbeyLab: https://labs.utdallas.edu/filbeylab/team-members/
+
+Brainspace: https://www.brainspace.com
