@@ -7,7 +7,7 @@ No Javascript yet. Arrow animations for site were created based on the outlined 
 ### Raw Text
 Harsha Srikara
 
-Software Engineering Intern at Brainspace, A Cyxtera Business
+Junior Software Engineer at Brainspace, A Cyxtera Business
 
 University of Texas at Dallas
 
