@@ -205,6 +205,10 @@ li {
     display: inline-block;
 }
 
+div {
+    outline: none;
+}
+
 .divElement {
     margin: 0;
     padding: 0;
