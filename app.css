@@ -158,8 +158,13 @@ a {
     text-align: center;
     margin-top: 4%
 }
+
+#resume {
+    margin-top:20%;
+    margin-bottom: 2%;
+    text-align: center;
+}
 #contactInfo {
-    margin-top: 25%;
     text-align: center;
 }
 #Organizations {
