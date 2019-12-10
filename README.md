@@ -1,6 +1,8 @@
 # harshasrikara.github.io
 Portfolio / Personal Website
 
+## New Site Update Coming Soon, existing site will be moved to harshasrikara.com/2019
+
 Portfolio website designed from scratch in html and css
 No Javascript yet. Arrow animations for site were created based on the outlined free design by 60 css arrows
 
