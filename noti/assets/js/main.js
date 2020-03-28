@@ -29,4 +29,10 @@
 	// Scrolly.
 		$('.scrolly').scrolly();
 
+	//breakpoint for meet the board section
+		breakpoints.on('<=medium',function() {
+			document.getElementById("meet-board-box").style = "margin-left: 3%; margin-right: 3%;";
+		});
+
 })(jQuery);
+
